@@ -15,7 +15,7 @@ export default function HomePage() {
           <IconRiot className="h-6 w-6" />
           <span className="sr-only">Company Name</span>
         </Link>
-        <NavBar/>
+        <NavBar />
       </header>
       <main className="flex flex-col overflow-auto scroll-snap-type-y mandatory">
         <section className="w-full h-screen flex flex-row text-center scroll-snap-start bg-[url('/test.png')] bg-no-repeat">
@@ -50,14 +50,14 @@ export default function HomePage() {
         </section>
         <section className="w-full min-h-screen flex items-center justify-center scroll-snap-start">
           <div className="container flex flex-col items-center px-4 md:px-6 animate-fade-in-down">
-            <h2 className="text-7xl font-bold text-center mb-8">
+            <h2 className="text-5gxl font-bold text-center mb-8">
               Testimonials
             </h2>
             <div className="flex flex-row flex-wrap justify-center items-center gap-6">
               <div className="flex flex-row items-center gap-6">
                 <img
                   src="t1.jpg"
-                  className="rounded-full w-64 h-64 object-fill"
+                  className="rounded-full w-32 h-32 object-fill"
                 />
                 <p className="text-gray-400 text-3xl">
                   "i hate this game as much as i hate my friends who are playing
@@ -65,25 +65,30 @@ export default function HomePage() {
                 </p>
               </div>
               <div className="flex flex-row items-center gap-6">
-                <img src="t2.jpg" className="rounded-full w-64 h-64 object-fill" />
+                <img
+                  src="t2.jpg"
+                  className="rounded-full w-32n h-32 object-fill"
+                />
                 <p className="text-gray-400 text-3xl">
                   "Wrost Competitive Game i Have Ever Played in my life. BadGame
                   Mechanic and Full of lifeless Smurfs" -Al Capone
                 </p>
               </div>
               <div className="flex flex-row items-center gap-6">
-                <img src="t3.jpg" className="rounded-full w-64 h-64 object-fill"/>
+                <img
+                  src="t3.jpg"
+                  className="rounded-full w-32 h-32 object-fill"
+                />
                 <p className="text-gray-400 text-3xl">
                   "I love this game especially the fact that you keep getting
-                  stuck on a loading screen when joining the game."
-                  -Billy Kimber
+                  stuck on a loading screen when joining the game." -Billy
+                  Kimber
                 </p>
               </div>
             </div>
           </div>
         </section>
       </main>
-      
     </div>
   );
 }
