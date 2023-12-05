@@ -50,7 +50,7 @@ export default function HomePage() {
         </section>
         <section className="w-full min-h-screen flex items-center justify-center scroll-snap-start">
           <div className="container flex flex-col items-center px-4 md:px-6 animate-fade-in-down">
-            <h2 className="text-5gxl font-bold text-center mb-8">
+            <h2 className="text-5xl font-bold text-center mb-8">
               Testimonials
             </h2>
             <div className="flex flex-row flex-wrap justify-center items-center gap-6">
