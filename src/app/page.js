@@ -18,7 +18,7 @@ export default function HomePage() {
         <NavBar />
       </header>
       <main className="flex flex-col overflow-auto scroll-snap-type-y mandatory">
-        <section className="w-full h-screen flex flex-row text-center scroll-snap-start bg-[url('/test.png')] bg-no-repeat">
+        <section className="w-full h-screen bg-blue-950 flex flex-row text-center scroll-snap-start  bg-no-repeat">
           <div className="animate-fade-in-down w-full h-full backdrop-blur flex flex-col justify-center items-center">
             <h1 className="text-5xl font-bold tracking-tighter md:text-6xl lg:text-7xl">
               Welcome to Riot Games
@@ -30,7 +30,7 @@ export default function HomePage() {
               className="inline-flex h-10 items-center justify-center rounded-md bg-[#c7922e] px-8 text-sm font-medium text-black shadow transition-colors hover:bg-[#c7922e]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#c7922e] disabled:pointer-events-none disabled:opacity-50 mt-6"
               href="/about-us"
             >
-              Learn More
+              About Us
             </Link>
           </div>
         </section>
@@ -57,11 +57,12 @@ export default function HomePage() {
               <div className="flex flex-row items-center gap-6">
                 <img
                   src="aai.jpg"
+                  alt="home image"
                   className="rounded-full w-32 h-32 object-fill "
                 />
                 <p className="text-gray-400 text-3xl">
                   "i hate this game as much as i hate my friends who are playing
-                  this pile of garbage" -Thomas Shelby
+                  this pile of garbage" -Carmen Orlando
                 </p>
               </div>
               <div className="flex flex-row items-center gap-6">
@@ -72,18 +73,19 @@ export default function HomePage() {
                 />
                 <p className="text-gray-400 text-3xl">
                   "Wrost Competitive Game i Have Ever Played in my life. BadGame
-                  Mechanic and Full of lifeless Smurfs" -Al Capone
+                  Mechanic and Full of lifeless Smurfs" -Griselda Blanco
                 </p>
               </div>
               <div className="flex flex-row items-center gap-6">
                 <img
                   src="aao.jpg"
+                  alt="home image"
                   className="rounded-full w-32 h-32 object-fill"
                 />
                 <p className="text-gray-400 text-3xl">
                   "I love this game especially the fact that you keep getting
-                  stuck on a loading screen when joining the game." -Billy
-                  Kimber
+                  stuck on a loading screen when joining the game." -Virginia
+                  Hill
                 </p>
               </div>
             </div>
