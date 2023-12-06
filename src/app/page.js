@@ -56,8 +56,8 @@ export default function HomePage() {
             <div className="flex flex-row flex-wrap justify-center items-center gap-6">
               <div className="flex flex-row items-center gap-6">
                 <img
-                  src="t1.jpg"
-                  className="rounded-full w-32 h-32 object-fill"
+                  src="aai.jpg"
+                  className="rounded-full w-32 h-32 object-fill "
                 />
                 <p className="text-gray-400 text-3xl">
                   "i hate this game as much as i hate my friends who are playing
@@ -66,8 +66,9 @@ export default function HomePage() {
               </div>
               <div className="flex flex-row items-center gap-6">
                 <img
-                  src="t2.jpg"
-                  className="rounded-full w-32n h-32 object-fill"
+                  src="aap.jpg"
+                  alt="home image"
+                  className="rounded-full w-32 h-32 object-fill"
                 />
                 <p className="text-gray-400 text-3xl">
                   "Wrost Competitive Game i Have Ever Played in my life. BadGame
@@ -76,7 +77,7 @@ export default function HomePage() {
               </div>
               <div className="flex flex-row items-center gap-6">
                 <img
-                  src="t3.jpg"
+                  src="aao.jpg"
                   className="rounded-full w-32 h-32 object-fill"
                 />
                 <p className="text-gray-400 text-3xl">
